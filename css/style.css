@@ -1,0 +1,298 @@
+
+/* 시작 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrap{
+    width:1000px;
+    height:700px;
+    background-color: aqua;
+    margin:100px auto;
+    border:1px solid #777;
+    border-radius: 10px;
+}
+
+/*음악정보 - 왼쪽*/
+#music-info{
+    width: 600px;
+    height: 700px;
+    background-color: darkblue;
+    float: left;
+}
+
+#music-head{
+    width: 600px;
+    height: 100px;
+    background-color: crimson;
+    float: left;
+}
+
+#music-head>span{
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+#title{
+    font-size: 30px;
+}
+
+#artist{
+    font-size: 25px;
+}
+
+#cover-img-area{
+    width: 600px;
+    height: 400px;
+    background-color: darksalmon;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+#cover-img-area>span{
+    width: 330px;
+    height: 330px;
+    background-color: gold;
+    display: block;
+    overflow: hidden;
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+
+#cover-img-area>span>img{
+    width: 400px;
+    height: 400px;
+    display: block;
+}
+
+#time{
+    width: 600px;
+    height: 40px;
+    background-color: greenyellow;
+    float: left;
+}
+
+#time>div{
+    font-size: 16px;
+    text-align: center;
+}
+
+#start-time{
+    position: relative;
+    left: -230px;
+    bottom: -10px;
+}
+
+#play-time{
+    position: relative;
+    right: -230px;
+    top: -11px;
+}
+
+#buttonArea{
+    width: 600px;
+    height: 130px;
+    background-color: aquamarine;
+    float: left;
+}
+
+#buttonArea>button{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    bottom: -25px;
+    right: -170px;
+}
+
+#buttonArea>button>img{
+    width: 80px;
+    height: 80px;
+}
+
+/*음악정보 - 오른쪽*/
+#listArea{
+    width: 400px;
+    height: 700px;
+    background-color: blueviolet;
+    float: left;
+}
+
+#list-head{
+    width: 400px;
+    height: 35px;
+    background-color: darkgoldenrod;
+}
+
+#list-head>span{
+    font-size: 22px;
+    display: block;
+    text-align: center;
+}
+
+#list1{
+    width: 400px;
+    height: 95px;
+    background-color: yellow;
+}
+
+#list1>p{
+    display: block;
+    position: relative;
+    right: -48px;
+    top: -70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#list1>span>img{
+width: 85px;
+height: 85px;
+position: relative;
+right: -20px;
+bottom: -4px;
+}
+
+#list2{
+    width: 400px;
+    height: 95px;
+    background-color: cornflowerblue;
+}
+
+#list2>p{
+    display: block;
+    position: relative;
+    right: -48px;
+    top: -70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#list2>span>img{
+width: 85px;
+height: 85px;
+position: relative;
+right: -20px;
+bottom: -4px;
+}
+
+#list3{
+    width: 400px;
+    height: 95px;
+    background-color: aqua;
+}
+
+#list3>p{
+    display: block;
+    position: relative;
+    right: -48px;
+    top: -70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#list3>span>img{
+width: 85px;
+height: 85px;
+position: relative;
+right: -20px;
+bottom: -4px;
+}
+
+#list4{
+    width: 400px;
+    height: 95px;
+    background-color: brown;
+}
+
+#list4>p{
+    display: block;
+    position: relative;
+    right: -48px;
+    top: -70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#list4>span>img{
+width: 85px;
+height: 85px;
+position: relative;
+right: -20px;
+bottom: -4px;
+}
+
+#list5{
+    width: 400px;
+    height: 95px;
+    background-color: violet;
+}
+
+#list5>p{
+    display: block;
+    position: relative;
+    right: -48px;
+    top: -70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#list5>span>img{
+width: 85px;
+height: 85px;
+position: relative;
+right: -20px;
+bottom: -4px;
+}
+
+#list6{
+    width: 400px;
+    height: 95px;
+    background-color: crimson;
+}
+
+#list6>p{
+    display: block;
+    position: relative;
+    right: -48px;
+    top: -70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#list6>span>img{
+width: 85px;
+height: 85px;
+position: relative;
+right: -20px;
+bottom: -4px;
+}
+
+#list7{
+    width: 400px;
+    height: 95px;
+    background-color: darkseagreen;
+}
+
+#list7>p{
+    display: block;
+    position: relative;
+    right: -48px;
+    top: -70px;
+    font-size: 17px;
+    text-align: center;
+}
+
+#list7>span>img{
+width: 85px;
+height: 85px;
+position: relative;
+right: -20px;
+bottom: -4px;
+}
